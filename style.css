@@ -1,3 +1,7 @@
-header{background-color: rgb(97, 95, 95);}
-main{background-color: rgb(94, 253, 155);}
-footer{background-color:rgb(97, 95, 95) ;}
+header{background-color: rgb(97, 95, 95);flex-grow: 1;}
+main{background-color: rgb(94, 253, 155);flex-grow: 3;}
+footer{background-color:rgb(97, 95, 95) ;flex-grow: 1;}
+body{display: flex;flex-direction: column;min-height: 100vh;}
+aside{display: flex;}
+section{display: flex;}
+
