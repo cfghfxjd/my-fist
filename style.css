@@ -1,7 +1,7 @@
 header{background-color: rgb(97, 95, 95);flex-grow: 1;}
-main{background-color: rgb(94, 253, 155);flex-grow: 3;}
+main{background-color: rgb(94, 253, 155);flex-grow: 3;display: flex;}
 footer{background-color:rgb(97, 95, 95) ;flex-grow: 1;}
 body{display: flex;flex-direction: column;min-height: 100vh;}
-aside{display: flex;}
-section{display: flex;}
+aside{display: flex;background-color: antiquewhite;}
+section{display: flex;background-color: antiquewhite;}
 
