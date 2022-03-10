@@ -4,6 +4,6 @@ main{background-color: rgb(94, 253, 155);flex-grow: 3;display: flex;}
 footer{background-color:rgb(97, 95, 95) ;flex-grow: 1;}
 body{display: flex;flex-direction: column;min-height: 100vh;}
 aside{display: flex;background-color: rgb(199, 253, 199);flex-grow: 1;}
-section{display: flex;background-color: antiquewhite;flex-grow: 5;}
+section{display: flex;background-color: antiquewhite;flex-grow: 5;flex-wrap: wrap;}
 div{background-color: aliceblue;}
-
+.catalog img{width: 200px;}
