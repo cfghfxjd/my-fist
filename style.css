@@ -3,10 +3,12 @@ header{background-color: rgb(46, 45, 45);flex-grow: 1;}
 main{background-color: rgb(94, 253, 155);flex-grow: 3;display: flex;}
 footer{background-color:rgb(46, 45, 45) ;flex-grow: 1;}
 body{display: flex;flex-direction: column;min-height: 100vh;}
-aside{display: flex;background-color:aliceblue;flex-grow: 2;}
+aside{background-color:rgb(127, 250, 127);width: 500px;}
 section{display: flex;background-color: rgb(127, 250, 127);flex-grow: 4;flex-wrap: wrap;justify-content: space-around;}
-div{background-color: aliceblue;}
-.catalog img{width: 200px;;border-radius: 20px;}
-.catalog{margin: 10px;border: 2px solid #000;border-radius: 20px;flex-basis:200px;height: 291px;}
+div{background-color: rgb(250, 250, 227);}
+.catalog img{width:170px;;border-radius: 20px;}
+.catalog{margin: 10px;border: 2px solid #000;border-radius: 20px;flex-basis:170px;height: 262px;}
 .price{text-align: center;border: 2px solid #000;border-radius: 20px;font-size: x-large;padding: 30px;}
-h2{text-align: center;border: 2px solid #000;border-radius: 20px;}
+aside{text-align: center;border: 2px solid #000;border-radius: 20px;text-align: center;font-size:x-large;
+background-color: rgb(250, 250, 227);}
+.title{border: 2px solid #000;border-radius: 20px;padding: 35px;}
