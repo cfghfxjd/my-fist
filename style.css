@@ -14,4 +14,5 @@ background-color: rgb(250, 250, 227);}
 .title{border: 2px solid #000;border-radius: 20px;padding: 35px;}
 .logo{float: left;}
 .logo img{border-radius: 360px;}
-nav{text-align: right;color:rgb(255, 255, 255);}
+nav{text-align: right;}
+nav a{color:rgb(255, 255, 255);text-decoration: none;}
