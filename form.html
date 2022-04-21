@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="style.css"/>
+    <title>Форма заявки</title>
+</head>
+<body>
+    <form action="#" method="post" id="myForm" enctype="multipart/form-data">
+        <label for="name">Имя:</label>
+        <input type="text" required minlength="2" maxlength="25" name="firstName" placeholder="Имя" id="name"/><br>
+       
+        <label for="lastname">Фамилия:</label>
+        <input type="text" minlength="1" maxlength="25"  name="lastName" placeholder="Фамилия" id="lastname"/><br>
+       
+        <label  for="password">Пароль:</label>
+        <input type="password" required name="password" id="password"/><br>
+
+        <label for="birthday">День рождение:</label>
+        <input type="date" name="birthday" placeholder="День рождение" id="date"/><br>
+       
+        <label for="photo" class="load">Фотография<input type="file" name="photo" id="photo"/></label><br> 
+
+        <label for="number">Номер телефона</label>
+        <input id="online_phone" name="phone" type="tel" maxlength="50"
+        autofocus="autofocus" required="required"
+        value="+7(___)___-__-__"
+        pattern="[\+7\s?[\(]{0,1}9[0-9]{2}[\)]{0,1}\s?\d{3}[-]{0,1}\d{2}[-]{0,1}\d{2}]"
+        placeholder="+7(___)___-__-__"/><br> 
+        
+
+
+        <label>Сообщение</label>
+        <textarea minlength="1" maxlength="250"></textarea>
+
+       <legend>Ваши любимые животные</legend> 
+        <fieldset> 
+             <label for="cat">Кошка</label>
+            <input type="checkbox" name="cat" id="cat"/><br>
+
+            <label for="dog">Собака</label>
+            <input type="checkbox" name="dog" id="dog"/><br>
+
+            <label for="dack">Утка</label>
+            <input type="checkbox" name="dack" id="dack"/><br>
+
+            <label for="frog">Лягушка</label>
+            <input type="checkbox" name="frog" id="frog"/><br>
+        </fieldset>
+
+            <legend>Ваш пол</legend>
+        <fieldset>
+            <label for="sex">Женский</label>
+            <input type="radio" name="sex" value="female" id="female"/>
+
+            <label for="sex">Мужской</label>
+            <input type="radio" name="sex" value="male" id="male"/>
+        </fieldset>
+             
+        <select name="fruits">
+             <option value="apple">Яблоко</option>
+             <option value="limon">Лимон</option>
+             <option value="banana">Банан</option>
+             <option value="" selected>Выберите</option>
+        </select>
+
+       
+
+
+
+
+
+         <input type="hidden"/>
+
+
+
+
+
+
+            
+
+
+
+
+        
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <input type="submit" value="Отправить" /> 
+</form>
+    
+</body>
+</html>
