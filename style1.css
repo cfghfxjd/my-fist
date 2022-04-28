@@ -1,0 +1,13 @@
+*{margin:0;padding:0;}
+main{display: flex;background-image: url(img/фон.jpg);background-size: cover;}
+footer{background-color:rgb(24, 23, 23) ;flex-grow: 2;}
+body{display: flex;flex-direction: column;min-height: 100vh;}
+nav{text-align: right;position: fixed;top: 7px;right: 19px;}
+nav a{color:rgb(255, 255, 255);text-decoration: none;}
+.left{background-color: rgb(250, 254, 255);border: 2px solid #000 ;border-radius: 15px;padding: 40px;}
+.left img{border: 2px ;border-radius: 20px;}
+.name{text-align: center;font-size: x-large;position: relative;}
+input{border: 2px solid #000;border-radius: 8px;}
+a{color: #000;}
+.fa-times{position: left;}
+.fa-bookmark-o{position: right;} 

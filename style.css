@@ -19,4 +19,4 @@ nav a{color:rgb(255, 255, 255);text-decoration: none;}
 input[type="text"]{width: 880px; padding: 8px;border: 2px solid #000;border-radius: 8px;} 
 .fa{font-size: 25px;padding: 10px;} 
 .fa-home{font-size: 30px;line-height: 10px;}
-a{color: rgb(252, 248, 248) ;}
+a{color: rgb(252, 248, 248) ;text-decoration: none;} 
