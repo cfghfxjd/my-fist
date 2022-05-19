@@ -1,2 +1,15 @@
 *{margin:0;padding:0;}
 body{background-image: url(img/bg.jpg);}
+.title{color:rgb(255, 255, 255);font-size:xx-large ;text-align:center;}
+nav{text-align: center;position: fixed;top: 7px;right: 19px;}
+nav a{color:rgb(255, 255, 255);text-decoration: none;}
+.fa{font-size: 25px;padding: 10px;} 
+.fa-shopping-basket{color:rgb(255, 94, 94)}
+.top-left,.below-left,.top-right,.below-right{border: 2px solid #000;border-radius: 15px;height:370px;
+background-color: white;margin: 10px;}
+p{padding: 10px;font-size:x-large;}
+main{display: flex;}
+.left{flex-grow: 2;}
+.right{flex-grow: 2;margin-right: 70px;}
+.iksweb{padding: 10px;font-size: x-large;}
+table{width: 100%;}
