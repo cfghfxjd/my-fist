@@ -1,0 +1,9 @@
+*{margin:0;padding:0;}
+body{background-image: url(img/bg.jpg);display: flex;}
+.fa-user-circle-o{color: white;font-size: 100px ;text-align:center;}
+input{border: 2px solid #000 ;border-radius: 5px;}
+.fa-shopping-basket,.fa-bookmark,.fa-user-circle,.fa-shopping-basket{font-size: 25px;padding: 10px;color: white;} 
+.fa-home{font-size: 30px;line-height: 10px;color: white;}
+.top1,.top2,.below1,.below2,.right-top{background-color: white;flex-grow: 2;}
+main{display: flex;}
+
